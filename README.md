@@ -3,6 +3,8 @@ angular-cipher-filters
 
 This is a collection of filters for [Angular](http://angularjs.org/) that implement basic ciphers.
 
+[![Build Status](https://travis-ci.org/zsoltiii/angular-cipher-filters.svg?branch=master)](https://travis-ci.org/zsoltiii/angular-cipher-filters)
+
 #Installation
 
 angular-cipher-filters is available from [Bower](http://bower.io/) and you can install the latest version like this:
