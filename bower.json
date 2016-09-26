@@ -1,6 +1,5 @@
 {
     "name": "angular-cipher-filters",
-    "version": "0.1.0",
     "description": "A collection of common ciphers implemented as angular filers",
     "homepage": "https://github.com/zsoltiii/angular-cipher-filters",
     "repository": {

@@ -15,9 +15,22 @@ module.exports = function(config) {
         colors: true,
         autoWatch: true,
         singleRun: false,
+        plugins: [
+          require('karma-jasmine'),
+          require('karma-phantomjs-launcher')
+        ],
         frameworks: ['jasmine'],
         reporters: ['progress'],
-        browsers: ['Chrome'],
-        captureTimeout: 60000
+        browsers: ['PhantomJS', 'PhantomJS_flags'],
+        captureTimeout: 60000,
+        customLaunchers: {
+          'PhantomJS_flags': {
+            base: 'PhantomJS',
+            flags: ['--load-images=false']
+          }
+        },
+        phantomjsLauncher: {
+          exitOnResourceError: true
+        }
     });
 };

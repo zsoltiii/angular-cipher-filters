@@ -1,7 +1,7 @@
 /**
  * @name angular-cipher-filters
  * @description A collection of common ciphers implemented as angular filers
- * @version v0.1.0 - Released on 2015-03-01
+ * @version v0.1.1 - Released on 2016-09-26
  * @author Zsolt Szalai
  * @license MIT
  * @link 'https://github.com/zsoltiii/angular-cipher-filters'
